@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    width: 100%;
+    height:100%;
+    background-color:rgb(237, 248, 238);
+
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color:rgb(184, 94, 94);
+}
+
+
+
+.logoImg{
+    width:200px;
+    border-radius: 50%;
+    position:relative;
+    top: -20px;
+}
+
+
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    color:rgb(184, 94, 94);
+}
+    .home, .menu, .contact{
+        padding:10px;
+        transition: 0.3s;
+    }
+        .home:hover, .menu:hover, .contact:hover{
+            cursor: pointer;
+            transition: 0.3s;
+            translate: 0 -10px;
+        }
+
+
+
+
+
+
+
+
+.homepageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .pageContent{
+        height:75%;
+        text-align: center;
+        margin-top: 30px;
+        color:rgb(184, 94, 94);
+        font-weight: bold;
+        margin-bottom: 10px;
+        width:400px;
+    }
+        .homeContentImg{
+            width:80%;
+            border-radius: 20px;
+            margin-bottom: 100px;
+        }
+
+.locationPageContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .locationPageContent{
+        height:75%;
+        text-align: center;
+        margin-top: 30px;
+        color:rgb(184, 94, 94);
+        font-weight: bold;
+        margin-bottom: 10px;
+        width:400px;
+    }
+        .locationContentImg{
+            width:80%;
+            border-radius: 20px;
+            margin-bottom: 100px;
+        }
+    
+.itembuildContainer{
+    font-weight: bold;
+    color:rgb(37, 123, 61);
+    width: 500px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+    .itembuildCard{
+        width:200px;
+        border:solid 1px black;
+        width: 300px;
+        margin: 20px;
+        padding:10px;
+        font-weight: bold;
+
+    }
+        .itembuildImg{
+            border-radius: 20px;
+        }
+
+
+
+
+
+
+
+.footerBox{
+    text-align: center;
+    width:100%;
+    height: 15px;
+    background:rgb(203, 248, 218);
+    border-radius: 20px;
+    padding: 5px 10px 10px 10px;
+    position:fixed;
+    bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+    .footer{
+        text-align: center;
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .gitLogoImage{
+        width: 20px;
+        height: 20px;
+        margin-top: 8px;
+    }
+        .gitLogoImage:hover{
+            cursor: pointer;
+            scale: 1.2;
+        }
